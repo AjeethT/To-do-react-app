@@ -1,0 +1,44 @@
+.list {
+    margin: 0 auto;
+    text-align: center;
+    width: 500px;
+    height: 300px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    box-shadow: 8px 2px black;
+    background-color: #fa7d09;
+    overflow: hidden;
+}
+
+.list input[type=text] {
+    height: 40px;
+    margin-right: 10px;
+    font-size: 1.2rem;
+    border-style: none;
+    border-radius: 10px;
+    color: #fa7d09;
+    box-shadow: 8px 2px black;
+    background-color: #ffffff;
+    overflow: inherit;
+}
+
+.list input[type=text]:focus,
+input[type=text]:hover {
+    border: 3px solid black;
+    box-shadow: none;
+}
+
+.list input[type=submit] {
+    height: 40px;
+    font-size: 1.2rem;
+    border-style: none;
+    border-radius: 10px;
+    box-shadow: 4px 1px white;
+    color: white;
+    background-color: red;
+}
+
+.list input[type=submit]:hover {
+    border: 3px solid white;
+    box-shadow: none;
+}
